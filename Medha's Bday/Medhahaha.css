@@ -1,0 +1,43 @@
+body{
+	padding-top: 70px;
+	font-family: 'Balsamiq Sans';
+}
+
+.jumbotron{
+	background-color: rgb(53, 94, 228);
+}
+
+.jumbotron>h1, .jumbotron>p, .jumbotron >h1>.blue{
+	color:#e4f16d;
+}
+
+.navbar{
+	background-color:#e4f16d;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.thumbnail{
+	border-radius: 25px;
+	border-color: rgb(53, 94, 228);
+}
+.thumbnail > h4{
+	color:rgb(53, 94, 228);
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	width: 335px;
+	height: 223.33px;
+}
+
+.carousel-inner>.item>a>video, .carousel-inner>.item>video, .thumbnail a>video, .thumbnail>video{
+	width: 335px;
+	height: 223.33px;
+}
+

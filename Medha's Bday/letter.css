@@ -1,0 +1,44 @@
+#outline{
+	margin: 5% auto;
+	/*can use max width instead of % */
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	border: 20px solid rgb(53, 94, 228);
+}
+
+.blogpost{
+	margin-top: 20px;
+}
+
+.blogpost p:nth-of-type(1){
+	padding-top: 5px;
+	color: rgb(53, 94, 228);
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 15px;
+	/*could probably change to a class*/
+}
+
+h2{
+	color: #2c3e50;
+	font-weight:700;
+	font-size: 2.0rem;
+}
+
+hr{
+	border: none;
+	border-top: 1px solid #bdc3c7;
+	color: #333;
+	overflow: visible;
+	text-align: center;
+	height: 5px;
+}
+
+body{
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	height: 100vh;
+}
+

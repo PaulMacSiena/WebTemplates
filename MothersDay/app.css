@@ -34,10 +34,6 @@ body{
     color: #ea1c2c;
 }
 
-#customHeading{
-    margin-top: 5rem;
-}
-
 #headingGroup p{
     font-weight: 100;
     font-size: 1.3rem;
@@ -45,10 +41,11 @@ body{
     color:  #ea1c2c;
 }
 
-/* @media (max-width: 1200px){
-    #headingGroup p{
-        font-weight: 100;
-        font-size: 1.2rem;
-    }
-} */
+#topgroup{
+    margin-top: 5rem;
+}
 
+img{
+    width: 300px;
+    height: 300px;
+}
